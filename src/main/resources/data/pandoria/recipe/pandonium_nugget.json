@@ -1,0 +1,13 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pandoria:pandonium"
+    }
+  ],
+  "result": {
+    "id": "pandoria:pandonium_nugget",
+    "count": 9
+  }
+}

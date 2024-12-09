@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pandoria:pandonium"
+    },
+    {
+      "item": "minecraft:iron_chestplate"
+    }
+  ],
+  "result": {
+    "id": "pandoria:pandonium_chestplate",
+    "count": 1
+  }
+}

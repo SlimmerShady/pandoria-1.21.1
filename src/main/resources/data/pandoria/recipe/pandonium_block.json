@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pandoria:pandonium"
+    }
+  },
+  "result": {
+    "id": "pandoria:pandonium_block",
+    "count": 1
+  }
+}

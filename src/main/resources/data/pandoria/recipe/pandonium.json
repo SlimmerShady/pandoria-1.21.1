@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "CiC",
+    "iii"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "pandoria:pandonium",
+    "count": 1
+  }
+}

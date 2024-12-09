@@ -1,0 +1,13 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pandoria:pandonium_block"
+    }
+  ],
+  "result": {
+    "id": "pandoria:pandonium",
+    "count": 9
+  }
+}

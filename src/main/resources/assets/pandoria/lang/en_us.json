@@ -1,0 +1,15 @@
+{
+  "item.pandoria.pandonium": "Pandonium",
+  "item.pandoria.pandonium_nugget": "Pandonium Nugget",
+  "item.pandoria.panda_sword": "Panda Sword",
+  "item.pandoria.panda_axe" : "Panda Axe",
+  "item.pandoria.panda_pickaxe" : "Panda Pickaxe",
+  "item.pandoria.panda_shovel" : "Panda Shovel",
+  "item.pandoria.panda_hoe" : "Panda Hoe",
+  "item.pandoria.pandonium_helmet" : "Pandonium Helmet",
+  "item.pandoria.pandonium_chestplate" : "Pandonium Chestplate",
+  "item.pandoria.pandonium_leggings" : "Pandonium Leggings",
+  "item.pandoria.pandonium_boots" : "Pandonium Boots",
+
+  "block.pandoria.pandonium_block" : "Pandonium Block"
+}

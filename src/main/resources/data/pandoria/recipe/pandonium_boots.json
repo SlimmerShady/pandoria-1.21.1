@@ -1,0 +1,16 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pandoria:pandonium"
+    },
+    {
+      "item": "minecraft:iron_boots"
+    }
+  ],
+  "result": {
+    "id": "pandoria:pandonium_boots",
+    "count": 1
+  }
+}
