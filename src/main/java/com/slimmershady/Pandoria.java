@@ -24,7 +24,9 @@ public class Pandoria implements ModInitializer {
 
 		ModArmorMaterials.initialize();
 		ModBlocks.initialize();
+		ModPotions.initialize();
 		ModItems.initialize();
+
 		ModGroups.initialize();
 
 		LOGGER.info("Hello Fabric world!");
