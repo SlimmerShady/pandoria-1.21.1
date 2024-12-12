@@ -12,16 +12,15 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 
 public class ModPotions {
-    public static final RegistryEntry<Potion> LEVITATION = Registry.registerReference(Registries.POTION, Identifier.of(Pandoria.MOD_ID, "levitation"), new Potion(new StatusEffectInstance(StatusEffects.LEVITATION, 1800, 0)));
-    public static final RegistryEntry<Potion> LONG_LEVITATION = Registry.registerReference(Registries.POTION, Identifier.of(Pandoria.MOD_ID, "long_levitation"), new Potion(new StatusEffectInstance(StatusEffects.LEVITATION, 4800, 0)));
+    public static final RegistryEntry<Potion> LEVITATION = Registry.registerReference(Registries.POTION, Identifier.of(Pandoria.MOD_ID, "levitation"), new Potion(new StatusEffectInstance(StatusEffects.LEVITATION, 300, 0)));
+    public static final RegistryEntry<Potion> LONG_LEVITATION = Registry.registerReference(Registries.POTION, Identifier.of(Pandoria.MOD_ID, "long_levitation"), new Potion(new StatusEffectInstance(StatusEffects.LEVITATION, 900, 0)));
 
 
     public static void initialize() {
+        //recipes
         FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
             builder.registerPotionRecipe(Potions.SLOW_FALLING, Items.FERMENTED_SPIDER_EYE, LEVITATION);
             builder.registerPotionRecipe(LEVITATION, Items.REDSTONE, LONG_LEVITATION);
-
-
         });
 
 
